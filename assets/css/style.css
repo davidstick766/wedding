@@ -288,7 +288,7 @@
     display: flex;
     align-items: center;
 }
-#contact a.btn-color {
+#contact button.btn-color {
     padding: 8px 40px;
     background: #BB946A;
     color: #fff;
