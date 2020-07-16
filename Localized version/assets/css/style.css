@@ -1,0 +1,515 @@
+/* Welcome Slider */
+.carousel-indicators{
+    bottom: 5%;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-caption {
+   bottom: 30%;
+}
+.carousel-item {
+    height:700px;
+}
+.carousel-item h3{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+.carousel-item p{
+    font-family: Adobe Arabic;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.carousel-item a{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    background: #BB946A;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* Navbar */
+.navbar-dropdown.transparent {
+    background: none ;
+}
+.nav-link.active{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    border-bottom: 1px solid #bb946a;
+    line-height: 18px;
+    color: #BB946A !important;    
+    transition: all .4s;
+}
+.nav-link{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF !important;
+}
+.nav-link:hover{
+    color:#ccc !important
+}
+/* About */
+#about h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+}
+#about p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #3A3A3A;
+    margin-bottom: 6em;
+}
+#about img{
+    max-width: 100%;
+}
+#about .text{
+    display: flex;
+    align-items: center;
+}
+#about a{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background: #BB946A;
+    padding: 7px 30px;
+}
+/* Services */
+#services{
+    background: url('../img/Rectangle\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#services h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+}
+#services .circle{
+    border: 1px solid #BB946A;
+    padding: 17px;
+    border-radius: 50%;
+}
+#services h3{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0.6em 0;
+    font-size: 18px;
+    text-align: center;
+    color: #3A3A3A;
+}
+#services p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #3A3A3A;
+}
+/* Recent works */
+#recent h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+ }
+ .text-muted {
+    color: white !important;
+}
+#recent .carousel-item{
+    height: 400px;
+    margin:0
+}
+
+ /* Gallery */
+ #gallery h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+}
+#gallery img{
+    width: inherit;
+}
+#gallery a.btn-color {
+    padding: 8px 40px;
+    background: #BB946A;
+    color: #fff;
+}
+#gallery{
+    background: url('../img/Rectangle\ 10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Pricing */
+#pricing h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+}
+#pricing .card-text{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80%;
+    text-align: center;
+    color: #3A3A3A;
+}
+#pricing .card-title{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    height: 70px;
+    text-align: center;
+    color: #3A3A3A;
+
+}
+#pricing .height{
+    height: 180px;
+}
+#pricing .height2{
+    height: 220px;
+}
+#pricing .box{
+    top:20px;
+}
+#pricing .card{
+    width:80%;
+    border:none;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+}
+#pricing .middle {
+    width:100%;
+    border:none;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+}
+#pricing .card-header{
+    background: #BB946A;
+    color:#fff;
+}
+#pricing a.btn-color{
+    padding: 8px 40px;
+    background: #BB946A;
+    color:#fff;
+}
+/* Testimonial */
+#testimonial h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+}
+#testimonial{
+    background: url('../img/Rectangle\ 24.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#testimonial .card{
+    border:none;
+}
+#testimonial .card-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1em;
+    text-align: center;
+    font-variant: small-caps;
+    color: #2C2C2C;
+}
+#testimonial p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #2C2C2C;
+}
+/* Contact Us */
+#contact h2{
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #000000;
+}
+#contact .text {
+    display: flex;
+    align-items: center;
+}
+#contact a.btn-color {
+    padding: 8px 40px;
+    background: #BB946A;
+    color: #fff;
+}
+/* Footer */
+#footer{
+    background: #BB946A;
+    color: #fff;
+    font-family: Adobe Arabic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+#footer a {
+    color:#fff
+}
+ #footer input::placeholder{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 3px 10px;
+    color: rgba(58, 58, 58, 0.7);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #BB946A;
+    background-clip: padding-box;
+    border:none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#footer input{
+    border:none;
+    padding:0;
+    background: #fff;
+}
+#footer a:hover {
+    color: #ccc;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #BB946A;
+    box-shadow: 0 0 0 0.1rem #BB946A;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ccc;
+}
+#gallery .btn-color:hover, .carousel-item a:hover, #about a:hover, #pricing a.btn-color:hover{
+    background: #bb946ab8 !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width:780px){
+    .box{
+        order: 12;
+    }
+    .main{
+        order: 1;
+    }
+    #about p {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3A3A3A;
+        margin-bottom: 1em;
+    }
+    .carousel-item {
+        height:auto;
+    }
+    .carousel-item img {
+        height:100vh;
+    }
+      #testimonial h2 {
+        font-family: Adobe Arabic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        margin-bottom: 1em;
+        text-align: center;
+        color: #000000;
+    }
+    #pricing .middle{
+        margin-top: 3em;
+    }
+    .carousel-item h3{
+        font-family: Adobe Arabic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carousel-item p{
+        margin-bottom:4em;
+        font-family: Adobe Arabic;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+  /*MD*/
+  @media (min-width: 768px) {
+  
+      /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+          display: block;
+      }
+   
+      .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+          transition: none;
+      }
+    
+      
+      .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+      }
+      
+      
+      /* left or forward direction */
+      .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(-100%, 0, 0);
+          visibility: visible;
+      }
+      
+      /* right or prev direction */
+      .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(100%, 0, 0);
+          visibility: visible;
+          display: block;
+          visibility: visible;
+      }
+  
+  }
+  
+  
+  /*LG 6th*/
+  @media (min-width: 991px) {
+  
+      /* show 4th item */
+      .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+          display: block;
+      }
+      
+      .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+          transition: none;
+      }
+      
+  
+  
+      
+      /* right or prev direction //t - previous slide direction last item animation fix */
+      .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(100%, 0, 0);
+          visibility: visible;
+          display: block;
+          visibility: visible;
+      }
+  
+  }
+  
+  /*LG 6th*/
+  @media (min-width: 991px) {
+  
+          /* show 5th and 6th item */
+      .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+          display: block;
+      }
+  
+      
+    
+      .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+      }
+  
+      
+    
+    /*show 7th slide for animation when its a 6 slides carousel */
+         .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item  + .carousel-item {
+          position: absolute;
+          top: 0;
+          right: -16.666666666%;
+          z-index: -1;
+          display: block;
+          visibility: visible;
+    }
+    
+        /* forward direction > */
+      .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(-100%, 0, 0);
+          visibility: visible;
+      }
+    
+        /* prev direction < last item animation fix */
+      .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+      .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(100%, 0, 0);
+          visibility: visible;
+          display: block;
+          visibility: visible;
+      }
+  
+  }
