@@ -41,6 +41,7 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /* Navbar */
 .navbar-dropdown.transparent {
     background: none ;
@@ -351,6 +352,9 @@
 
 /* Mobile Responsiveness */
 @media (max-width:780px){
+    .container{
+        overflow-x: hidden;
+    }
     .box{
         order: 12;
     }

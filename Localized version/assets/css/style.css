@@ -351,6 +351,9 @@
 
 /* Mobile Responsiveness */
 @media (max-width:780px){
+    .container{
+        overflow-x: hidden;
+    }
     .box{
         order: 12;
     }

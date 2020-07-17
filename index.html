@@ -23,7 +23,7 @@
 
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
   <!-- Start Navbar -->
   <nav class=" navbar-dropdown transparent navbar-dark fixed-top bg-color
@@ -218,7 +218,7 @@
   <!-- Start gallery -->
   <div id="gallery" class="pt-5 pb-5">
     <h2>Gallery</h2>
-    <div class="container">
+    <div class="container" >
       <div class="row">
         <div class="col-md-6" data-aos="fade-up">
           <img src="./assets/img/Rectangle 11.png" alt="">
@@ -371,7 +371,7 @@
   <!-- End testimonials -->
 
 
-  <!-- Start contact us -->
+<!-- Start contact us -->
   <div id="contact" class="pt-5 mb-5">
     <h2>Contact us</h2>
     <div class="container">
@@ -412,11 +412,11 @@
         </div>
         <div class="col-md-4 text-center">
           <p> Subscribe to our News letter</p>
-          <form action="">
+          <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <div class="input-group">
-              <input type="email" name="" class="form-control" placeholder="Email" id="">
+              <input type="email" name="email" class="form-control" placeholder="Email" id="">
               <div class="input-group-prepend">
-                <i class="fa fa-arrow-right pr-3 pt-2" style="color:#BB946A;background:#fff"></i>
+             <button class="fa fa-arrow-right pr-3 pt-2" type="submit" style="color:#BB946A;background:#fff">Subscribe</button>
               </div>
             </div>
           </form>
@@ -462,6 +462,37 @@
     }
   </script>
 
+   <script>
+       const processForm = form => {
+  const data = new FormData(form)
+  data.append('form-name', 'newsletter');
+  fetch('/', {
+    method: 'POST',
+    body: data,
+  })
+  .then(() => {
+    form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
+  })
+  .catch(error => {
+    form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
+  })
+}
+         
+       const emailForm = document.querySelector('.email-form')
+if (emailForm) {
+  emailForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(emailForm);
+  })
+}
+    
+    </script> 
+    
+    
+    
+    
+    
+    
 </body>
 
 </html>
